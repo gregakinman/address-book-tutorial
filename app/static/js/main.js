@@ -20,4 +20,14 @@ var addContact = function() {
         "<td><a href='#'>Delete</a></td>" +
         "</tr>"
     )
-}
+};
+
+$(document).ready(function() {
+    $("#add").on("click", function() {
+        addContact();
+    })
+
+    $("tbody").on("click", "a", function() {
+        $(this).closest("tr").remove();
+    });
+});
