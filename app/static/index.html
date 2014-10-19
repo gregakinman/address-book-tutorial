@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My Address Book</title>
+</head>
+<body>
+    <div id="addNames">
+        <form>
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first"><br>
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last"><br>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone"><br>
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address"><br>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city"><br>
+            <label for="state">State</label>
+            <input type="text" name="state" id="state"><br>
+            <label for="zip">Zip Code</label>
+            <input type="number" name="zip" id="zip" size="5"><br>
+        </form>
+        <button id="add">Add Contact</button>
+    </div>
+    <div id="seeNames">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Zip Code</th>
+                    <th>Delete Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Greg Kinman</td>
+                    <td>4698779938</td>
+                    <td>9 Sunset Blvd.</td>
+                    <td>Houston</td>
+                    <td>Texas</td>
+                    <td>77005</td>
+                    <td><a href="#">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
